@@ -5,14 +5,14 @@ metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.8.0
   creationTimestamp: null
-  name: mytypes.sample.template.crossplane.io
+  name: mytypes.sample.proxmox.crossplane.io
 spec:
-  group: sample.template.crossplane.io
+  group: sample.proxmox.crossplane.io
   names:
     categories:
     - crossplane
     - managed
-    - template
+    - proxmox
     kind: MyType
     listKind: MyTypeList
     plural: mytypes
